@@ -1,4 +1,4 @@
-(ns igtm-service.utils
+(ns itgm-service.utils
   (:require [clojure.data.json :as json])
   (:import java.util.Base64))
 

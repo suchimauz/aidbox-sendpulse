@@ -1,4 +1,4 @@
-(defproject igtm-service "0.1.0-SNAPSHOT"
+(defproject itgm-service "0.1.0-SNAPSHOT"
   :description "Service for create contacs for sendmail"
   :url "http://github.com/suchimauz"
   :license {:name "Eclipse Public License"
@@ -12,6 +12,6 @@
                  [org.clojure/data.json "0.2.7"]
                  [clj-commons/clj-yaml "0.7.0"]
                  [http-kit "2.4.0-alpha3"]]
-  :main ^:skip-aot igtm-service.core
+  :main ^:skip-aot itgm-service.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

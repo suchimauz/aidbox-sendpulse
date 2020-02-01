@@ -1,6 +1,6 @@
-(ns igtm-service.action.core
-  (:require [igtm-service.utils :refer [json-parse]]
-            [igtm-service.auth.core :as auth]
+(ns itgm-service.action.core
+  (:require [itgm-service.utils :refer [json-parse]]
+            [itgm-service.auth.core :as auth]
             [cheshire.core :refer [generate-string]]))
 
 (defn get-resource [rt & [id]]

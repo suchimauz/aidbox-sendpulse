@@ -1,4 +1,4 @@
-(ns igtm-service.core
+(ns itgm-service.core
   (:use
    [clojure.java.io]
    [compojure core response]
@@ -7,7 +7,7 @@
    [ring.middleware file file-info stacktrace reload json])
   (:require [compojure.route :as route]
             [org.httpkit.client]
-            [igtm-service.action.core :as action]
+            [itgm-service.action.core :as action]
             [clojure.string :as str])
   (:gen-class))
 
@@ -17,7 +17,7 @@
 
 (def app
   (-> main-routes
-      (wrap-reload '(igtm-service.core))
+      (wrap-reload '(itgm-service.core))
       (wrap-json-body)
       (wrap-json-params)
       (wrap-file-info)

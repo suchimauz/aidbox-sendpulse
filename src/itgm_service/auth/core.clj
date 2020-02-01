@@ -1,6 +1,6 @@
-(ns igtm-service.auth.core
-  (:require [igtm-service.utils :refer [json-parse]]
-            [igtm-service.utils :refer [encode-base64]]
+(ns itgm-service.auth.core
+  (:require [itgm-service.utils :refer [json-parse]]
+            [itgm-service.utils :refer [encode-base64]]
             [cheshire.core :refer [generate-string]]))
 
 (defn auth []
