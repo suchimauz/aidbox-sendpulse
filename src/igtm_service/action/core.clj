@@ -21,7 +21,7 @@
                                         "Company" (:company user)
                                         "Experience" (:experience user)}}]}
         resp @(org.httpkit.client/request
-               {:url "https://api.sendpulse.com/addressbooks/558797/emails"
+               {:url (str "https://api.sendpulse.com/addressbooks/" (or (System/getenv "SENDPULSE_ADDRESS_BOOK_ID") 558797) "/emails")
                 :headers {"Content-Type" "application/json"
                           "Authorization" (auth/get-token)}
                 :method :post

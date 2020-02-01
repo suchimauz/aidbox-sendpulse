@@ -1,36 +1,15 @@
-# igtm-service
+# SEND PULSE SERVICE
 
-FIXME: description
+## Global environment variables
 
-## Installation
+    $ SENDPULSE_CLIENT_ID - client id from sendpulse api settings
 
-Download from http://example.com/FIXME.
+    $ SENDPULSE_CLIENT_SECRET - client secret from sendpulse api settings
 
-## Usage
+    $ AUTH_CLIENT_ID - client id for Aidbox basic auth
 
-FIXME: explanation
+    $ AUTH_SECRET - client secret for Aidbox basic auth
 
-    $ java -jar igtm-service-0.1.0-standalone.jar [args]
+    $ AIDBOX_URL - Aidbox backend url. Example: http://url.com - without "/" in the end
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2020 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+    $ SENDPULSE_ADDRESS_BOOK_ID - Address book id in sendpulse
