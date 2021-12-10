@@ -1,5 +1,7 @@
 # SEND PULSE SERVICE
 
+Send pulse contact group helper for https://www.health-samurai.io/aidbox [Aidbox]
+
 Docker Hub: [suchimauz/itgm-service](https://hub.docker.com/r/suchimauz/itgm-service)
 
 ## Global environment variables
