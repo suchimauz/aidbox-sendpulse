@@ -1,4 +1,4 @@
-# SEND PULSE SERVICE
+# SEND PULSE AIDBOX SERVICE
 
 Send pulse contact group helper for https://www.health-samurai.io/aidbox [Aidbox]
 
